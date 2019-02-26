@@ -7,7 +7,7 @@ const bodyParser = require('body-parser')
 const indexRouter = require('./routes/index')
 const itemsRouter = require('./routes/items')
 
-const DB_URI = `mongodb://localhost:27017/recycling_db`
+const DB_URI = `mongodb://heroku_nr69qcm9:9c2v2queusjrrth0llp7qbj76i@ds029821.mlab.com:29821/heroku_nr69qcm9`
 const FRONTEND_URI = `https://frontend-recycle-project.herokuapp.com/`
 
 const app = express()
