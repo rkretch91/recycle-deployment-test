@@ -8,7 +8,7 @@ const indexRouter = require('./routes/index')
 const itemsRouter = require('./routes/items')
 
 const DB_URI = `mongodb://localhost:27017/recycling_db`
-const FRONTEND_URI = `http://localhost:3000`
+const FRONTEND_URI = `https://frontend-recycle-project.herokuapp.com/`
 
 const app = express()
 
@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 
 // connect to DB
 mongoose
-  .connect(DB_URI, { 
+  .connect(DB_URI, {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false
