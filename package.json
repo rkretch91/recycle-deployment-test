@@ -10,6 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/rkretch91/recycle-deployment-test.git"
   },
+    "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "mongoose": "^5.4.8",
+    "morgan": "^1.9.1"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
