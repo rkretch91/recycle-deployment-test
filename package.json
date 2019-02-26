@@ -1,0 +1,19 @@
+{
+  "name": "recycle-deployment-test",
+  "version": "1.0.0",
+  "description": "Run in the Frontend folder: ``` npm install",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkretch91/recycle-deployment-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkretch91/recycle-deployment-test/issues"
+  },
+  "homepage": "https://github.com/rkretch91/recycle-deployment-test#readme"
+}
